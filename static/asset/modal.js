@@ -150,7 +150,7 @@ const modal = `
                         </div>
                         <div id="spinner" style="display: none;">
                             <div class="text-center">
-                                <h6 data-i18n="connect" class="h6 connect">Connecting...</h6>
+                                <h6 data-i18n="connect" class="h6 connect asdfasdfasdfasf">Connectingasdf...</h6>
                             </div>
                             <div class="sk-folding-cube">
                                 <div class="sk-cube1 sk-cube"></div>

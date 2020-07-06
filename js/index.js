@@ -9,6 +9,7 @@ import { version } from '../package.json';
 import config from './config';
 
 import '../static/css/bootstrap-iso.css'; // version: 4.3.1
+import '../static/css/torusZIndex.css';
 
 // eslint-disable-next-line no-underscore-dangle
 let _defaultAddress;
@@ -22,9 +23,7 @@ const getDefaultAddress = () => {
     return '';
 };
 
-const getNetVersion = () => {
-    return 1;
-};
+const getNetVersion = () => 1;
 
 // Create new web3 and set default account
 const defaultEnableCallback = (err, res) => {
